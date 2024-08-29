@@ -69,6 +69,7 @@ export default {
     Project_NAME_FORMAT_1: "Use Text After Last Dash In Folder Name As Project Name",
     Project_NAME_FORMAT_2: "Use Text After First Dash In Folder Name As Project Name",
     Project_NAME_FORMAT_3: "Use Whole Folder Name As Project Name",
+    Project_NAME_FORMAT_4: "Use Custom File Name",
     PROJECT_NAME_FORMAT_HINT: "Set Your Project Name Format",
     SELECTOR_FOLDER_OPTION_TEMPLATE: "Selector Option Content Template",
     SELECTOR_FOLDER_OPTION_TEMPLATE_HINT: "Set Your Selector Option Content Template You Must Include {{folder}} In Your Template",
@@ -106,4 +107,5 @@ export default {
     PROJECT_NAME_SOURCE_HINT: "Your Can Choose The First Or Last Level Sub Folder Name In Tasks Folder As Project Name Source",
     PROJECT_NAME_SOURCE_1: "Use First Level",
     PROJECT_NAME_SOURCE_2: "Use Last Level",
+    PROJECT_NAME_SOURCE_3: "Use Custom",
 }

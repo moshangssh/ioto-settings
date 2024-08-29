@@ -69,6 +69,7 @@ export default {
     Project_NAME_FORMAT_1: "使用文件夾名稱中最後一個英文連字符後的文本作為項目名稱",
     Project_NAME_FORMAT_2: "使用文件夾名稱中第一個英文連字符後的文本作為項目名稱",
     Project_NAME_FORMAT_3: "使用整個文件夾名稱作為項目名稱",
+    Project_NAME_FORMAT_4: "使用自定义文件名",
     PROJECT_NAME_FORMAT_HINT: "設置您的項目名稱格式",
     SELECTOR_FOLDER_OPTION_TEMPLATE: "選擇器選項內容模板",
     SELECTOR_FOLDER_OPTION_TEMPLATE_HINT: "設置您的選擇器選項內容模板 您必須在模板中包含 {{folder}}",
@@ -106,4 +107,5 @@ export default {
     PROJECT_NAME_SOURCE_HINT: "你可以選擇任務文件夾下的第一級或者最後一級子文件名稱作為項目名字的來源",
     PROJECT_NAME_SOURCE_1: "使用第一級",
     PROJECT_NAME_SOURCE_2: "使用最後一級",
+    PROJECT_NAME_SOURCE_3: "使用自定义",
 }

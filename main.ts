@@ -270,13 +270,13 @@ class IOTOSettingTab extends PluginSettingTab {
 			});
 		});
 		new Setting(containerEl).setName(t("PROJECT_NAME_SOURCE")).setDesc(t("PROJECT_NAME_SOURCE_HINT")).addDropdown((cb) => {
-			cb.addOption("first", t("PROJECT_NAME_SOURCE_1")).addOption("last", t("PROJECT_NAME_SOURCE_2")).setValue(this.plugin.settings.projectNameSource).onChange(async (value) => {
+			cb.addOption("first", t("PROJECT_NAME_SOURCE_1")).addOption("last", t("PROJECT_NAME_SOURCE_2")).addOption("custom", t("PROJECT_NAME_SOURCE_3")).setValue(this.plugin.settings.projectNameSource).onChange(async (value) => {
 				this.plugin.settings.projectNameSource = value;
 				await this.plugin.saveSettings();
 			});
 		});
 		new Setting(containerEl).setName(t("PROJECT_NAME_FORMAT")).setDesc(t("PROJECT_NAME_FORMAT_HINT")).addDropdown((cb) => {
-			cb.addOption("lastDash", t("Project_NAME_FORMAT_1")).addOption("firstDash", t("Project_NAME_FORMAT_2")).addOption("wholeFolderName", t("Project_NAME_FORMAT_3")).setValue(this.plugin.settings.projectNameFormat).onChange(async (value) => {
+			cb.addOption("lastDash", t("Project_NAME_FORMAT_1")).addOption("firstDash", t("Project_NAME_FORMAT_2")).addOption("wholeFolderName", t("Project_NAME_FORMAT_3")).addOption("customfilename", t("Project_NAME_FORMAT_4")).setValue(this.plugin.settings.projectNameFormat).onChange(async (value) => {
 				this.plugin.settings.projectNameFormat = value;
 				await this.plugin.saveSettings();
 			});
